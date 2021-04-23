@@ -1,7 +1,7 @@
 {
   "name": "untitled13",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prerequisites: Install Node: https://nodejs.org/en/download/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,19 @@
   "dependencies": {},
   "devDependencies": {
     "copy-webpack-plugin": "^8.1.0",
-    "webpack": "^5.28.0",
+    "webpack": "^5.35.1",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafvnk/BasicWebPack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafvnk/BasicWebPack/issues"
+  },
+  "homepage": "https://github.com/rafvnk/BasicWebPack#readme"
 }
